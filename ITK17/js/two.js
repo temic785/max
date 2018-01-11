@@ -1,0 +1,11 @@
+var date = new Date();
+document.write("Год - " + date.getFullYear() + "<br />");
+document.write("Месяц - " + date.getMonth() + "<br />");
+document.write("Число - " + date.getDate() + "<br />");
+document.write("День недели - " + date.getDay() + "<br />");
+document.write("Час - " + date.getHours() + "<br />");
+document.write("Минута - " + date.getMinutes() + "<br />");
+document.write("Секунда - " + date.getSeconds() + "<br />");
+document.write("Миллисекунда - " + date.getMilliseconds() + "<br />");
+document.write("Количество миллисекунд прошедших с 01.01.1970 - " + date.getTime() + "<br />");
+document.write("год - " + date.setDate(25) + "<br/>");

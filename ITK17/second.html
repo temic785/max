@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Пять событий с мышкой</title>
+    <style>
+        button.color:hover{background-color: blueviolet}
+        button.color:active{ background-color: green }
+        button.button:hover{ background-color: gray}
+    </style>
+    <script>
+        function change_color(){
+            var div = document.getElementById('yellow');
+            div.style.backgroundColor = "#FFBF00"
+        }
+    </script>
+</head>
+<body>
+<h1 align="center"> Пять событий с мышкой </h1>
+<input type="button" name="bez_polzi" value="Щёлкните по мне мышкой ">
+<br>
+<button class="color" id="yellow" name="button" value="orange" onclick='change_color(this)'>Щёлкните по мне мышкой </button>
+<br>
+<button class="button" id="grey" name="button" value="orange">Медленно проведите курсором мышки по этой надписи</button>
+
+
+</body>
+</html>
